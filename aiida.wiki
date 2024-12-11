@@ -1,0 +1,99 @@
+{{subst:AfC submission/draftnew}}<!-- Important, do not remove this line before article has been created. -->
+
+{{Infobox software
+| name = AiiDA
+| logo = https://github.com/aiidateam/aiida-core/blob/main/docs/source/images/aiida-logo.svg
+| screenshot = 
+| caption = 
+| developer = The AiiDA Team
+| released = 2014
+| latest release version = 2.6.3
+| programming language = Python
+| operating system = Linux, macOS
+| license = MIT License
+| website = {{URL|https://www.aiida.net/}}
+}}
+
+'''AiiDA''' ('''A'''utomated '''I'''nteractive '''I'''nfrastructure and '''DA'''tabase for Computational Science) is an open-source Python software package designed to help researchers manage, preserve, and share computational scientific workflows in materials science, condensed matter physics, and computational chemistry.
+
+== Overview ==
+AiiDA is a comprehensive workflow management system that automates the complexity of computational research by providing tools for data provenance, workflow automation, and integration with high-performance computing (HPC) resources. It is developed by a collaborative team of researchers and aims to enhance reproducibility and efficiency in computational scientific research.
+
+== History ==
+Developed initially at the [[École Polytechnique Fédérale de Lausanne]] (EPFL), AiiDA emerged from the need to address challenges in managing complex computational workflows in materials science. The project began in the early 2010s and has since gained notable traction in the computational materials science community.
+
+== Features ==
+
+=== Workflow Automation ===
+* Automated execution and tracking of computational workflows
+* Support for complex, nested workflows across different computational codes and platforms
+* Ability to restart and resume interrupted workflows
+
+=== Data Management ===
+* Comprehensive provenance tracking of scientific computations
+* Automatic storage and organization of computational inputs, outputs, and metadata
+* Native support for various file formats and computational codes
+
+=== High-Performance Computing Integration ===
+* Seamless interface with HPC clusters and supercomputing facilities
+* Support for job scheduling systems like SLURM, PBS, and SGE
+* Efficient management of computational resources
+
+=== Interoperability ===
+* Plugins for popular computational chemistry and materials science codes
+* Integration with [[Quantum ESPRESSO]], [[VASP]], and other scientific computing software
+
+== Scientific Impact ==
+AiiDA has been valuable in promoting open science and computational reproducibility. It has been used in numerous scientific publications across materials science, enabling researchers to:
+* Share complete, reproducible computational workflows
+* Preserve detailed computational provenance
+* Facilitate collaborative research through standardized workflow management
+
+== Community and Development ==
+The project is open-source and maintained by an international community of researchers and developers. It is actively developed on GitHub and supported by various research institutions and computational science centers.
+
+== Technical Specifications ==
+* '''Programming Language''': Python
+* '''License''': MIT License
+* '''First Release''': 2014
+* '''Current Version''': 2.x series
+* '''Platform Support''': Linux, macOS
+
+== Awards and Recognition ==
+* Selected as a key tool in materials informatics by multiple computational materials science conferences
+* Recognized for its contribution to open science and research reproducibility
+
+== See Also ==
+* Computational materials science
+* Scientific workflow management
+* Research data management
+* High-throughput computing
+
+== References ==
+{{Reflist}}
+# Pizzi, G., et al. (2016). "AiiDA: automated interactive infrastructure and database for computational science." ''Computational Materials Science'', 111, 218-230.
+# [[Official AiiDA Documentation]]
+
+== External Links ==
+* [https://www.aiida.net/ Official AiiDA Website]
+* [https://github.com/aiidateam/aiida-core AiiDA GitHub Repository]
+
+{{DEFAULTSORT:AiiDA}}
+[[Category:Scientific software]]
+[[Category:Computational chemistry software]]
+[[Category:Materials science software]]
+[[Category:Open-source software]]
+
+
+
+
+
+== References ==
+
+<!-- Inline citations added to your article will automatically display here. See en.wikipedia.org/wiki/WP:REFB for instructions on how to add citations. -->
+{{reflist}}
+<ref>Pizzi, G., Cepellotti, A., Sabatini, R., Marzari, N. & Kozinsky, B. [https://doi.org/DOI_NUMBER AiiDA: automated interactive infrastructure and database for computational science]. ''Computational Materials Science'' '''111''', 218–230 (2016).</ref>
+<ref>Huber, S. P. ''et al.'' [https://doi.org/DOI_NUMBER AiiDA 1.0, a scalable computational infrastructure for automated reproducible workflows and data provenance]. ''Scientific Data'' '''7''', 300 (2020).</ref>
+<ref>Uhrin, M., Huber, S. P., Yu, J., Marzari, N. & Pizzi, G. [https://doi.org/DOI_NUMBER Workflows in AiiDA: Engineering a high-throughput, event-based engine for robust and modular computational workflows]. ''Computational Materials Science'' '''187''', 110086 (2021).</ref>
+<ref>https://www.max-centre.eu/codes-max/aiida#:~:text=AiiDA%20(Automated%20Interactive%20Infrastructure%20and,simulations%20where%20complex%20scientific%20workflows</ref>
+
