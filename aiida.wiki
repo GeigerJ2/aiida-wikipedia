@@ -14,18 +14,22 @@
 | website = {{URL|https://www.aiida.net/}}
 }}
 
-'''AiiDA''' ('''A'''utomated '''I'''nteractive '''I'''nfrastructure and '''DA'''tabase for Computational Science) is an open-source Python software package designed to help researchers manage, preserve, and share computational scientific workflows in materials science, condensed matter physics, and computational chemistry.
+'''AiiDA''' ('''A'''utomated '''I'''nteractive '''I'''nfrastructure and '''DA'''tabase for Computational Science) is an [[Open-source_software|open-source]] [[Python_(programming_language)|Python]] software package designed to help researchers manage, preserve, and share computational scientific workflows in materials science, condensed matter physics, and computational chemistry.
 
 == Overview ==
-AiiDA is a comprehensive workflow management system that automates the complexity of computational research by providing tools for data provenance, workflow automation, and integration with high-performance computing (HPC) resources. It is developed by a collaborative team of researchers and aims to enhance reproducibility and efficiency in computational scientific research.
+AiiDA is a comprehensive workflow management system that automates the complexity of computational research by providing tools for data provenance, workflow automation, and integration with high-performance computing (HPC) resources.
+<ref>Pizzi, G., Cepellotti, A., Sabatini, R., Marzari, N. & Kozinsky, B. [https://doi.org/DOI_NUMBER AiiDA: automated interactive infrastructure and database for computational science]. ''Computational Materials Science'' '''111''', 218–230 (2016).</ref>
+<ref>Huber, S. P. ''et al.'' [https://doi.org/DOI_NUMBER AiiDA 1.0, a scalable computational infrastructure for automated reproducible workflows and data provenance]. ''Scientific Data'' '''7''', 300 (2020).</ref>
+<ref>Uhrin, M., Huber, S. P., Yu, J., Marzari, N. & Pizzi, G. [https://doi.org/DOI_NUMBER Workflows in AiiDA: Engineering a high-throughput, event-based engine for robust and modular computational workflows]. ''Computational Materials Science'' '''187''', 110086 (2021).</ref>
+It is developed by a collaborative team of researchers and aims to enhance reproducibility and efficiency in computational scientific research.
 
 == Features ==
 
 === Provenance and data management ===
-* Comprehensive provenance tracking of scientific computations
+* Comprehensive provenance tracking of scientific computations in the form of [[Directed_acyclic_graph|directed acyclic graphs]]
 * Automatic storage and organization of computational inputs, outputs, and metadata
 * Efficient querying on millions of database nodes
-* Exporting capabilites to allow for easy sharing with collaborators or online publication
+* Exporting capabilites for easy sharing with collaborators or online publication
 
 === Workflow Automation ===
 * Automated execution and tracking of computational workflows
@@ -59,12 +63,6 @@ The project is open-source and maintained by an international community of resea
 
 == References ==
 {{Reflist}}
-# Pizzi, G., et al. (2016). "AiiDA: automated interactive infrastructure and database for computational science." ''Computational Materials Science'', 111, 218-230.
-<ref>Pizzi, G., Cepellotti, A., Sabatini, R., Marzari, N. & Kozinsky, B. [https://doi.org/DOI_NUMBER AiiDA: automated interactive infrastructure and database for computational science]. ''Computational Materials Science'' '''111''', 218–230 (2016).</ref>
-<ref>Huber, S. P. ''et al.'' [https://doi.org/DOI_NUMBER AiiDA 1.0, a scalable computational infrastructure for automated reproducible workflows and data provenance]. ''Scientific Data'' '''7''', 300 (2020).</ref>
-<ref>Uhrin, M., Huber, S. P., Yu, J., Marzari, N. & Pizzi, G. [https://doi.org/DOI_NUMBER Workflows in AiiDA: Engineering a high-throughput, event-based engine for robust and modular computational workflows]. ''Computational Materials Science'' '''187''', 110086 (2021).</ref>
-<ref>https://www.max-centre.eu/codes-max/aiida#:~:text=AiiDA%20(Automated%20Interactive%20Infrastructure%20and,simulations%20where%20complex%20scientific%20workflows</ref>
-
 
 == External Links ==
 * [https://www.aiida.net/ Official AiiDA Website]
